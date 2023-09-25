@@ -45,7 +45,7 @@ header .headerp {
 header .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 header .navbar .logo {
@@ -101,7 +101,7 @@ header .navbar .navigation ul {
     text-align: center;
     gap: 5px;
 }
-
+ 
 header .navbar .navigation ul li {
     padding: 5px;
 }
@@ -160,6 +160,7 @@ header .navbar .navigation ul a {
         display: block;
     }
 }
+
 
 @media (min-width:576px) {
     .container {
