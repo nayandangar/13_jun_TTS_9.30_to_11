@@ -36,7 +36,7 @@
     <script>
         // click event & blur event
         function emailValid() {
-            let email = document.getElementById("mail").value;
+            let email = document.getElementById("email").value;
             if (email == "" || email == null) {
                 document.getElementById("msg").innerHTML = "Enter Email"
                 return false;
@@ -44,7 +44,7 @@
         }
         // keyboard event
         function emailRegEx() {
-            let email = document.getElementById("mail").value;
+            let email = document.getElementById("email").value;
             // copy expression from https://www.w3resource.com/
             let emailEx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{3})+$/
             if (emailEx.test(email)) {

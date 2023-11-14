@@ -28,12 +28,14 @@ function formValid() {
         document.getElementById("msg5").innerHTML = "Select City"
         return false
     }
-}
+}   
 
 // blur event validation
 // create a parameterized / argument function 
 function blankCheck(blank, msg) {
+    debugger
     if (blank.value == "" || blank.value == null) {
+        debugger
         document.getElementById(msg).innerHTML = "Please, Enter value!!!"
         return false;
     }
